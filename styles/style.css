@@ -1,0 +1,43 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    height: 10vh;
+    background-color: rgb(6,20,31);
+}
+
+header img{
+    max-height: 100%;
+    height: 60px;
+}
+
+main{
+    background-color: rgb(28,45,60);
+}
+
+.my-card{
+    border-radius: 10px;
+    background-color: rgb(17,32,47);
+    color: white;
+}
+
+.my-card img{
+    width: 80%;
+}
+
+.my-card h3{
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.my-card p{
+    white-space:nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.my-card span{
+    font-weight: 500;
+}
